@@ -3,7 +3,7 @@
 
 //// bootswatch theme overrides
 // @import "bootswatch/dist/cerulean/variables";
-@import "bootswatch/dist/cosmo/variables";
+// @import "bootswatch/dist/cosmo/variables";
 // @import "bootswatch/dist/cyborg/variables";
 // @import "bootswatch/dist/darkly/variables";
 // @import "bootswatch/dist/flatly/variables";
@@ -12,7 +12,7 @@
 // @import "bootswatch/dist/lumen/variables";
 // @import "bootswatch/dist/lux/variables";
 // @import "bootswatch/dist/materia/variables";
-// @import "bootswatch/dist/minty/variables";
+@import "bootswatch/dist/minty/variables";
 // @import "bootswatch/dist/pulse/variables";
 // @import "bootswatch/dist/sandstone/variables";
 // @import "bootswatch/dist/simplex/variables";
@@ -64,7 +64,7 @@
 
 //// bootswatch theme overrides
 // @import "bootswatch/dist/cerulean/bootswatch";
-@import "bootswatch/dist/cosmo/bootswatch";
+// @import "bootswatch/dist/cosmo/bootswatch";
 // @import "bootswatch/dist/cyborg/bootswatch";
 // @import "bootswatch/dist/darkly/bootswatch";
 // @import "bootswatch/dist/flatly/bootswatch";
@@ -73,7 +73,7 @@
 // @import "bootswatch/dist/lumen/bootswatch";
 // @import "bootswatch/dist/lux/bootswatch";
 // @import "bootswatch/dist/materia/bootswatch";
-// @import "bootswatch/dist/minty/bootswatch";
+@import "bootswatch/dist/minty/bootswatch";
 // @import "bootswatch/dist/pulse/bootswatch";
 // @import "bootswatch/dist/sandstone/bootswatch";
 // @import "bootswatch/dist/simplex/bootswatch";
@@ -104,6 +104,6 @@
   flex-direction: row!important;
 
   & > * {
-    padding-left: 10px; 
+    padding-left: 10px;
   }
 }
