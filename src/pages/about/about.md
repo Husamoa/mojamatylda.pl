@@ -1,8 +1,6 @@
 ---
 contentType: about
 path: /about
-title: About Me
+title: O mnie
 ---
-This is a placeholder page.
-
-Be sure to update your `.md` files in `src/pages`, or use [admin](/admin).
+To jest przykładowa strona. Jestem mamą itd. Pisz co chcesz. Wystarczy, że zalogujesz się do [admin](https://www.mojamatylda.pl/admin/)
