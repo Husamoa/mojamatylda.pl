@@ -1,6 +1,7 @@
 ---
 contentType: blog
 path: /welcome
-title: Welcome
+title: Witaj
+date: '2019-06-15T00:00:00+02:00'
 ---
-Welcome to your new gatsby-blog. You can delete this file in "src/pages/blog/welcome.md". If you have this site deployed on netlify, you can also hit the [admin](/admin).
+Cześć Ania. Witaj na swoim blogu. Możesz zalogować się do [admin](/admin) i pisać posty :)
