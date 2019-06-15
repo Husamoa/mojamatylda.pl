@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container } from 'reactstrap'
 import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import {Link} from 'gatsby'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
