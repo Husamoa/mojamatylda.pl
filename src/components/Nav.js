@@ -45,11 +45,12 @@ export class Navigation extends Component {
     return (
       <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
         <div className="Nav--Container container">
-          <Link to="/" onClick={this.handleLinkClick}>
-            {/* <Logo /> */}
+          <Link style={{textDecoration: 'none', padding: '0.5rem 1rem'}} to="/" onClick={this.handleLinkClick}>
+            <span className="Nav--Logo">mojamatylda.pl</span>
+             {/*<Logo />*/}
           </Link>
           <div className="Nav--Links">
-            <NavLink to="/">mojamatylda.pl</NavLink>
+            <NavLink to="/">home</NavLink>
             <NavLink to="/components/">przykładowa strona</NavLink>
             <div
               className={`Nav--Group ${
