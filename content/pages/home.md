@@ -2,7 +2,7 @@
 template: HomePage
 slug: ''
 title: mojamatylda.pl
-featuredImage: 'https://ucarecdn.com/159203d3-881d-4218-baa1-ca4427b48d0d/'
+featuredImage: 'https://ucarecdn.com/0a92cc3c-bc34-4bc4-a6cb-0174bef83051/'
 subtitle: Witaj na blogu mojamatylda.pl
 meta:
   description: >-
