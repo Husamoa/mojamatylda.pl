@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Location } from '@reach/router'
 import { Link } from 'gatsby'
 import { Menu, X } from 'react-feather'
-import Logo from './Logo'
+// import Logo from './Logo'
 
 import './Nav.css'
 
@@ -66,11 +66,11 @@ export class Navigation extends Component {
                 }`}
                 onClick={() => this.toggleSubNav('posts')}
               >
-                Blog
+                blog
               </span>
               <div className="Nav--GroupLinks">
                 <NavLink to="/blog/" className="Nav--GroupLink">
-                  Wszsytkie
+                  wszystkie
                 </NavLink>
                 {subNav.posts.map((link, index) => (
                   <NavLink
@@ -83,8 +83,8 @@ export class Navigation extends Component {
                 ))}
               </div>
             </div>
-            <NavLink to="/about/">O mnie</NavLink>
-            <NavLink to="/contact/">Contact</NavLink>
+            <NavLink to="/about/">o mnie</NavLink>
+            <NavLink to="/contact/">kontakt</NavLink>
           </div>
           <button
             className="Button-blank Nav--MenuButton"
