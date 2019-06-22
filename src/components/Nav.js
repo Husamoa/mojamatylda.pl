@@ -45,7 +45,7 @@ export class Navigation extends Component {
     return (
       <nav className={`Nav ${active ? 'Nav-active' : ''}`}>
         <div className="Nav--Container container">
-          <Link style={{textDecoration: 'none', padding: '0.5rem 1rem'}} to="/" onClick={this.handleLinkClick}>
+          <Link to="/" onClick={this.handleLinkClick}>
             <span className="Nav--Logo">mojamatylda.pl</span>
              {/*<Logo />*/}
           </Link>
