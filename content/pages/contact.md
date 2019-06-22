@@ -10,6 +10,7 @@ email: anna.bialek@onet.pl
 locations:
   - lat: '52.4006522'
     lng: '16.91975202'
+    mapLink: none
 meta:
   description: Strona z kontaktem.
   title: Kontakt
