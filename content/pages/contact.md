@@ -7,7 +7,9 @@ subtitle: Podtytuł stony kontaktowej.
 address: 'Osiedle Bolesława Chrobrego 16, Poznań'
 phone: +48 604 190 088
 email: anna.bialek@onet.pl
-locations: []
+locations:
+  - lat: '52.4006522'
+    lng: '16.91975202'
 meta:
   description: Strona z kontaktem.
   title: Kontakt
